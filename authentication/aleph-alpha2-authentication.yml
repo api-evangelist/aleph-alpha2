@@ -1,0 +1,28 @@
+generated: '2026-07-17'
+method: searched
+source: https://docs.aleph-alpha.com/products/apis/pharia-inference/
+docs: https://docs.aleph-alpha.com/products/apis/pharia-inference/
+note: >-
+  Aleph Alpha does not publish a public OpenAPI document — the PhariaInference
+  API host (https://api.aleph-alpha.com) returns HTTP 401 on all unauthenticated
+  requests, including /.well-known/* and /openapi.json. This profile is derived
+  from the public documentation and the official aleph-alpha-client library.
+summary:
+  types:
+  - http
+  api_key_in: []
+  oauth2_flows: []
+schemes:
+- name: bearerAuth
+  type: http
+  scheme: bearer
+  bearerFormat: token
+  description: >-
+    API requests are authenticated with a bearer token supplied in the
+    Authorization header (Authorization: Bearer <token>). Tokens are created in
+    the Aleph Alpha account portal at https://app.aleph-alpha.com and passed to
+    the official client via the `token` constructor parameter.
+  token_issuer: https://app.aleph-alpha.com
+  sources:
+  - https://docs.aleph-alpha.com/products/apis/pharia-inference/
+  - https://github.com/Aleph-Alpha/aleph-alpha-client
