@@ -1,0 +1,35 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/Aleph-Alpha
+packages:
+- language: python
+  registry: pypi
+  name: aleph-alpha-client
+  version: 11.5.1
+  license: MIT
+  url: https://pypi.org/project/aleph-alpha-client/
+  repository: https://github.com/Aleph-Alpha/aleph-alpha-client
+  install: pip install aleph-alpha-client
+  description: >-
+    Official Python client to interact with the Aleph Alpha (PhariaInference)
+    API endpoints — completion, embeddings, semantic search, and task-specific
+    operations. Requires Python 3.10+.
+  official: true
+- language: python
+  registry: github
+  name: pharia_data_sdk
+  url: https://github.com/Aleph-Alpha/pharia_data_sdk
+  repository: https://github.com/Aleph-Alpha/pharia_data_sdk
+  description: >-
+    Official modern async Python SDK for the Pharia Data API, with TypedDict
+    support.
+  official: true
+- language: python
+  registry: github
+  name: intelligence-layer-sdk
+  url: https://github.com/Aleph-Alpha/intelligence-layer-sdk
+  repository: https://github.com/Aleph-Alpha/intelligence-layer-sdk
+  description: >-
+    Official unified framework for leveraging Aleph Alpha LLMs to build,
+    evaluate, and operate AI applications.
+  official: true

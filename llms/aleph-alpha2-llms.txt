@@ -1,0 +1,34 @@
+# Aleph Alpha
+
+> Aleph Alpha is a Heidelberg, Germany-based AI company building sovereign, specialized large language models (SLLMs) for European enterprises and public-sector organizations. Its PhariaAI suite is an end-to-end, self-hostable stack, and the PhariaInference HTTP API (https://api.aleph-alpha.com) exposes completion, chat, embeddings, semantic search, tokenization, and explainability using bearer-token authentication.
+
+## APIs
+
+- [PhariaInference API](https://docs.aleph-alpha.com/products/apis/pharia-inference/): Text completion, chat, embeddings, semantic search, tokenization, and explainability. Base URL https://api.aleph-alpha.com; bearer-token auth.
+- [Pharia OpenAPI references](https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-openapi/index.html): PhariaData, PhariaOS, PhariaSearch, PhariaStudio, PhariaInference, and Responses API references.
+
+## Docs
+
+- [Developer documentation](https://docs.aleph-alpha.com/): PhariaAI product and developer guides.
+- [PhariaAI overview](https://docs.aleph-alpha.com/phariaai-home/latest/index.html): Product suite overview for developers, knowledge workers, and IT admins.
+- [Getting started](https://docs.aleph-alpha.com/products/apis/pharia-inference/): PhariaInference HTTP API guide.
+
+## SDKs
+
+- [aleph-alpha-client (Python)](https://pypi.org/project/aleph-alpha-client/): Official Python client. `pip install aleph-alpha-client`.
+- [pharia_data_sdk (Python)](https://github.com/Aleph-Alpha/pharia_data_sdk): Official async SDK for the Pharia Data API.
+- [intelligence-layer-sdk (Python)](https://github.com/Aleph-Alpha/intelligence-layer-sdk): Official framework for building on Aleph Alpha LLMs.
+
+## Company
+
+- [Website](https://aleph-alpha.com/): Company site.
+- [Blog](https://aleph-alpha.com/blog/): News and research.
+- [GitHub organization](https://github.com/Aleph-Alpha): Open-source clients and tools.
+- [Support portal](https://supportportal.aleph-alpha.com): Product support.
+- [Account portal / sign up](https://app.aleph-alpha.com): Create an account and API tokens.
+
+## Repo artifacts
+
+- [Authentication profile](authentication/aleph-alpha2-authentication.yml)
+- [Packages / SDKs](packages/aleph-alpha2-packages.yml)
+- [Well-known probe index](well-known/aleph-alpha2-well-known.yml)

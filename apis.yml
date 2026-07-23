@@ -1,22 +1,114 @@
 aid: aleph-alpha2
 name: Aleph Alpha2
-description: Aleph Alpha2 is a company surfaced as a portfolio company of earlybird and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aleph Alpha is a Heidelberg, Germany-based artificial intelligence company
+  building sovereign, specialized large language models (SLLMs) for European
+  enterprises and public-sector organizations operating in regulated and
+  sensitive domains. Its PhariaAI suite is an end-to-end, self-hostable stack —
+  PhariaStudio for building AI applications, PhariaAssistant for knowledge
+  workers, and PhariaOS for resource management, alongside the PhariaInference,
+  PhariaSearch, and PhariaData APIs — engineered for data sovereignty,
+  transparency, and EU regulatory compliance while running on European
+  infrastructure. The PhariaInference HTTP API exposes text completion, chat,
+  embeddings, semantic search, tokenization, and explainability, accessed with a
+  bearer token issued from app.aleph-alpha.com and supported by an official
+  open-source Python client.
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/apis.yml
 url: https://raw.githubusercontent.com/api-evangelist/aleph-alpha2/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - earlybird
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profile
+x-tier-reason: enriched-from-public-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- Large Language Models
+- Machine Learning
+- Generative AI
+- Sovereign AI
+- Inference API
+- Embeddings
+- Europe
+- Germany
+- Enterprise AI
+apis:
+- name: PhariaInference API
+  description: >-
+    The PhariaInference HTTP API provides access to Aleph Alpha's specialized
+    language models for text completion, chat completions, embeddings, semantic
+    (symmetric and asymmetric) search, tokenization/detokenization, and
+    explainability. Requests are authenticated with a bearer API token obtained
+    from the Aleph Alpha account portal.
+  humanURL: https://docs.aleph-alpha.com/products/apis/pharia-inference/
+  baseURL: https://api.aleph-alpha.com
+  tags:
+  - Inference
+  - Large Language Models
+  - Embeddings
+  - Semantic Search
+  - Completion
+  properties:
+  - type: Authentication
+    url: authentication/aleph-alpha2-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/aleph-alpha2-domain-security.yml
+- type: Website
+  url: https://aleph-alpha.com/
+- type: DeveloperPortal
+  url: https://docs.aleph-alpha.com/
+- type: Documentation
+  url: https://docs.aleph-alpha.com/
+- type: APIReference
+  url: https://docs.aleph-alpha.com/phariaai-dev-guide/latest/pharia-openapi/index.html
+- type: GettingStarted
+  url: https://docs.aleph-alpha.com/products/apis/pharia-inference/
+- type: Blog
+  url: https://aleph-alpha.com/blog/
+- type: Support
+  url: https://supportportal.aleph-alpha.com
+- type: GitHubOrganization
+  url: https://github.com/Aleph-Alpha
+- type: SignUp
+  url: https://app.aleph-alpha.com
+- type: PrivacyPolicy
+  url: https://aleph-alpha.com/datenschutz/
+- type: TermsOfService
+  url: https://aleph-alpha.com/impressum/
+- type: Packages
+  url: packages/aleph-alpha2-packages.yml
+- type: SDKs
+  url: packages/aleph-alpha2-packages.yml
+- type: Authentication
+  url: authentication/aleph-alpha2-authentication.yml
+- type: WellKnown
+  url: well-known/aleph-alpha2-well-known.yml
+- type: LLMsTxt
+  url: llms/aleph-alpha2-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -1,0 +1,27 @@
+generated: '2026-07-17'
+method: searched
+source: live probe 2026-07-17
+note: >-
+  The PhariaInference API host requires authentication on every path — all
+  /.well-known/* probes returned 401. No public discovery documents were found.
+hosts:
+- host: https://api.aleph-alpha.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+  - path: /.well-known/api-catalog
+    status: 401
+  - path: /.well-known/ai-plugin.json
+    status: 401
+- host: https://aleph-alpha.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 403
+- host: https://docs.aleph-alpha.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
