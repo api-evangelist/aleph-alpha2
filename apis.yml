@@ -51,7 +51,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Artificial Intelligence
-- Large Language Models
+- LLM
 - Machine-Learning
 - Generative AI
 - Sovereign AI
@@ -83,6 +83,12 @@ apis:
   humanURL: https://docs.aleph-alpha.com/products/apis/pharia-inference/
   baseURL: https://api.aleph-alpha.com
   tags:
+  - Inference
+  - LLM
+  - Embeddings
+  - Semantic Search
+  - Completion
+  tags_raw:
   - Inference
   - Large Language Models
   - Embeddings
