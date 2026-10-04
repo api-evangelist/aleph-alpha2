@@ -52,10 +52,10 @@ tags:
 - Company
 - Artificial Intelligence
 - LLM
-- Machine-Learning
+- Machine Learning
 - Generative AI
 - Sovereign AI
-- Inference API
+- Inference
 - Embeddings
 - Europe
 - Germany
@@ -72,6 +72,7 @@ tags_raw:
 - Europe
 - Germany
 - Enterprise AI
+- Machine-Learning
 apis:
 - name: PhariaInference API
   description: >-
